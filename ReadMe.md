@@ -19,7 +19,7 @@
 Contains a description of the data set in TidyData.txt
 
 ### View TidyData.txt in R
-address <- "XXX"  
+address <- "https://s3.amazonaws.com/coursera-uploads/peer-review/HkJsxW0yEeWEewoyD2Bc5Q/6ee9c496138f0bb42320c2252ae6f745/TidyData.txt"  
 address <- sub("^https", "http", address)  
 data <- read.table(url(address), header = TRUE)  
 View(data)
